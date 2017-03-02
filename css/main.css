@@ -1,0 +1,41 @@
+.footer{
+    background-color: black;
+    color: azure;
+
+
+}
+
+.background{
+
+
+}
+
+
+#background-carousel{
+    position:fixed;
+    width:100%;
+    height:100%;
+
+}
+.carousel,
+.carousel-inner {
+    width:100%;
+    height:100%;
+
+    overflow:hidden;
+
+}
+.item {
+    width:100%;
+    height:100%;
+    background-position:center center;
+    background-size:cover;
+
+
+}
+
+
+
+
+
+
