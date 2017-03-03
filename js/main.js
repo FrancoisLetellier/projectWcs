@@ -2,7 +2,7 @@
 
 $('#myCarousel').carousel({
 
-    pause: 'none'
-
+    pause: 'none',
+    interval : 2000,
 
 })
