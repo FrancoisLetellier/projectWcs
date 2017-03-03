@@ -2,9 +2,14 @@
 .footer{
     background-color: black;
     color: azure;
-    z-index:10;
+    height: 100px;
 
 
+}
+
+main {
+
+    height: 800px;
 }
 
 .background{
