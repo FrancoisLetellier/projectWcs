@@ -15,8 +15,15 @@
                 <legend>Formulaire de contact</legend>
 
                 <div class="form-group">
+                    <label for="">Nom restaurant</label>
+                    <input type="text" class="form-control" name="nomrestaurant" id="nomrestaurant"
+                           placeholder="Entrez votre nom de restaurant">
+                </div>
+
+                <div class="form-group">
                     <label for="">Prénom</label>
-                    <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Entrez votre prénom">
+                    <input type="text" class="form-control" name="firstname" id="firstname"
+                           placeholder="Entrez votre prénom">
                 </div>
                 <div class="form-group">
                     <label for="">Nom</label>
@@ -26,10 +33,19 @@
                     <label for="">Email</label>
                     <input type="text" class="form-control" name="email" id="email" placeholder="Entrez votre email">
                 </div>
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="text" class="form-control" name="téléphone" id="téléphone"
+                           placeholder="Entrez votre n° téléphone">
+                </div>
+                <div>
+                    <textarea type="text" class="form-control" name="commentaires" id="commentaires" cols="40" rows="4"
+                              placeholder="Posez vos questions, expliquez le coté atypique de votre restaurant"></textarea>
+                </div>
 
 
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Envoi du formulaire</button>
             </form>
         </div>
     </div>
