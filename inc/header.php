@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+<div class="row">
+    <div class="navbar navbar-default" role="navigation">
+        <a class="navbar-brand" href="#">Restaurant Atypique</a>
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/?page=contact">Contact</a></li>
+        </ul>
+=======
 <nav class="navbar-default navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -13,5 +22,6 @@
                 <li <?php if($page == "contact"){ echo 'class="active"'; } ?>><a href="/?page=contact">Contact</a></li>
             </ul>
         </div>
+>>>>>>> 52bfd07e1c44901600312295c9cab0edb47a84c1
     </div>
 </nav>

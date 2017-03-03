@@ -32,13 +32,16 @@
         <?php include "inc/header.php"; ?>
     </header>
     <main>
-        <div class="row">
+
 
             <?php include "page/$file"; ?>
-        </div>
+
     </main>
     <footer>
-        <?php include "inc/footer.php"; ?>
+
+                <?php include "inc/footer.php"; ?>
+
+
     </footer>
 
 
