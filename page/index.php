@@ -4,8 +4,8 @@
 
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="item active" style="background-image:url(http://lorempixel.com/1200/800/food/1/)"></div>
-                            <div class="item" style="background-image:url(http://lorempixel.com/1200/800/food/2/)"></div>
+                            <div class="item active" style="background-image:src = picture/RestaurantChine.jpg"></div>
+                            <div class="item" style="background-image: href = picture/restoaqua.jpg"></div>
                             <div class="item" style="background-image:url(http://lorempixel.com/1200/800/food/4/)"></div>
                         </div>
                     </div>
