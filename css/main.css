@@ -1,11 +1,14 @@
-
+*
 .footer{
     background-color: black;
     color: azure;
     height: 100px;
-
-
 }
+.footer-bottom {
+    background-color: black;
+    color: azure;
+}
+
 
 main {
 
@@ -40,7 +43,24 @@ main {
 
 
 }
+.modal-body {
+    height: 400px;
+    width: 200px;
+}
 
+.restaurant {
+    margin: 0 auto;
+}
+.restaurant p, .restaurant h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.restaurant img {
+    display: block;
+    margin: auto;
+}
 
 
 

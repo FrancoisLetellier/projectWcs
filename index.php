@@ -20,9 +20,13 @@
                 case 'index' :
                     echo 'Home page';
                     break;
+                case 'restaurant' :
+                    echo 'Nos Restaurants';
+                    break;
                 case 'contact':
                     echo 'Contactez-nous';
                     break;
+
             }
         ?>
     </title>
