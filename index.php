@@ -18,10 +18,13 @@
         <?php
             switch ($page){
                 case 'index' :
-                    echo 'Home page';
+                    echo 'Accueil';
                     break;
                 case 'contact':
                     echo 'Contactez-nous';
+                    break;
+                case 'devenir':
+                    echo 'Devenir Franchisé';
                     break;
             }
         ?>
