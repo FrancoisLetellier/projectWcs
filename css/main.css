@@ -1,11 +1,14 @@
-
+*
 .footer{
     background-color: black;
     color: azure;
     height: 100px;
-
-
 }
+.footer-bottom {
+    background-color: black;
+    color: azure;
+}
+
 
 main {
 
@@ -52,13 +55,32 @@ main {
 .well {
     opacity:0.85;
 }
+.modal-body {
+    height: 400px;
+    width: 200px;
+}
 
+.restaurant {
+    margin: 0 auto;
+}
+.restaurant p, .restaurant h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+<<<<<<< HEAD
 .title{ color:black; font-size:40px; }
 
 img{
 width: 100%;
 
 
+=======
+.restaurant img {
+    display: block;
+    margin: auto;
+>>>>>>> 83070c57dc5e4c38bd55d8fc92809b85c7cc02fd
 }
 
 

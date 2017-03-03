@@ -20,6 +20,9 @@
                 case 'index' :
                     echo 'Accueil';
                     break;
+                case 'restaurant' :
+                    echo 'Nos Restaurants';
+                    break;
                 case 'contact':
                     echo 'Contactez-nous';
                     break;
