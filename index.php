@@ -18,15 +18,17 @@
         <?php
             switch ($page){
                 case 'index' :
-                    echo 'Home page';
+                    echo 'Accueil';
                     break;
                 case 'restaurant' :
                     echo 'Nos Restaurants';
                     break;
+                case 'devenir':
+                    echo 'Devenir Franchisé';
+                    break;
                 case 'contact':
                     echo 'Contactez-nous';
                     break;
-
             }
         ?>
     </title>
@@ -36,11 +38,9 @@
         <?php include "inc/header.php"; ?>
     </header>
     <main>
-
-
-            <?php include "page/$file"; ?>
-
+        <?php include "page/$file"; ?>
     </main>
+
     <footer>
 
                 <?php include "inc/footer.php"; ?>

@@ -1,4 +1,4 @@
-*
+
 .footer{
     background-color: black;
     color: azure;
@@ -17,15 +17,13 @@ main {
 
 .background{
 
-
 }
-
 
 #background-carousel{
     position:fixed;
     width:100%;
     height:100%;
-
+    z-index:-1;
 
 }
 .carousel,
@@ -33,6 +31,7 @@ main {
     width:100%;
     height:100%;
     overflow:hidden;
+    z-index:0;
 
 }
 .item {
@@ -40,8 +39,15 @@ main {
     height:100%;
     background-position:center center;
     background-size:cover;
+    z-index:0;
 
+}
 
+#content-wrapper {
+    position: absolute;
+    z-index: 1 ;
+    min-width: 100%;
+    min-height: 100%;
 }
 .modal-body {
     height: 400px;
@@ -57,9 +63,39 @@ main {
     text-align: center;
 }
 
+
 .restaurant img {
     display: block;
     margin: auto;
+}
+.well {
+    opacity:0.85;
+}
+.modal-body {
+    height: 400px;
+    width: 200px;
+}
+
+.restaurant {
+    margin: 0 auto;
+}
+.restaurant p, .restaurant h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.title{ color:black; font-size:40px; }
+
+img {
+    width: 100%;
+}
+
+
+.restaurant img {
+    display: block;
+    margin: auto;
+
 }
 
 
