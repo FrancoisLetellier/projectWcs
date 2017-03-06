@@ -15,10 +15,10 @@
 */
 
 html {
-    height: 100vh;
+
 }
 body {
-    min-height: 100vh;
+
     background-color: #ddd;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -30,13 +30,14 @@ body {
 .page-heading {
     font-family: 'Satisfy', cursive;
     font-size: 2.6em;
-    padding; 1em;
+    padding: 1em;
 }
 
 /* Footer */
 .footer{
     background-color: rgba(34, 34, 34, 1);
     color: azure;
+
 }
 
 
@@ -73,58 +74,62 @@ body {
     color: whitesmoke;
 }
 
+header{
 
+}
 
 main {
-    height: 680px;
-    margin-top: 3.5em;
-}
 
-.background{
 
 }
 
-#background-carousel{
-    position:fixed;
-    width:100%;
-    height:85%;
-    z-index:-1;
+footer{
 
-}
-.carousel,
-.carousel-inner {
-    width:100%;
-    height:100%;
-    overflow:hidden;
-    z-index:0;
-
-}
-.item {
-    width:100%;
-    height:100%;
-    background-position:center center;
-    background-size:cover;
-    z-index:0;
 
 }
 
-#content-wrapper {
-    position: absolute;
-    z-index: 1 ;
-    min-width: 100%;
-    min-height: 100%;
+/*homepage */
+.row{
+
+
 }
 
-.well {
-    opacity:0.85;
-}
+img.homepage {
 
-
-.title{ color:black; font-size:40px; }
-
-img {
     width: 100%;
+
+
 }
+
+p {
+
+}
+
+
+.comment{
+
+}
+
+
+
+}
+.jumbo {
+    background: rgb(200, 54, 54); /* This is for ie8 and below */
+    background: rgba(200, 54, 54, 0.5);
+
+}
+
+.container{
+   color:black;
+
+
+}
+
+
+/*fin homepage*/
+/*fin homepage*/
+
+
 /* Restaurants page*/
 .restaurant-page {
     width: 90%;
