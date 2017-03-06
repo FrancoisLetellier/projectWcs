@@ -1,8 +1,12 @@
 
+$(document).ready(function() {
 
-$('#myCarousel').carousel({
+    $('#myCarousel').carousel({
 
-    pause: 'none',
-    interval : 2000,
+        pause: 'none',
+        interval: 2000,
 
-})
+    });
+
+
+});
