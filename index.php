@@ -3,6 +3,7 @@
     $file = $page . '.php';
     ?>
 
+
 <!doctype html>
 <html lang="en">
 <head>

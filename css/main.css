@@ -89,41 +89,65 @@ footer{
 }
 
 /*homepage */
-.row{
 
+.head-restaurant {   /*Titre de la page */
+    width: 90%;
+    margin: 8% auto;
+    font-family: 'Satisfy', cursive;
+    font-size: 4.2em;
+    padding: 1em;
+    color : white;
+    text-align : center;
+}
+
+#background-carousel{  /*fond écran de la page */
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index:-1;
 
 }
 
-img.homepage {
-
+img {
     width: 100%;
+}
+
+.restaurant{ /*button Nos restaurant*/
+    font-family: 'Satisfy', cursive;
+    font-size: 2.3em;
 
 
 }
 
-p {
 
-}
-
-
-.comment{
-
-}
+#content-wrapper {  /*regroup title, concept, button,*/
+    z-index: 1 ;
+    min-width: 100%;
+    min-height: 100%;
+    margin-bottom : 10% auto;
 
 
 
 }
-.jumbo {
-    background: rgb(200, 54, 54); /* This is for ie8 and below */
-    background: rgba(200, 54, 54, 0.5);
+
+.description{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
 
 }
 
-.container{
-   color:black;
+.well {                /*white background*/
+    opacity:0.85;
+    width: 90%;
+    margin-bottom: 20%;
 
 
 }
+
+
+
+
+
 
 
 /*fin homepage*/
