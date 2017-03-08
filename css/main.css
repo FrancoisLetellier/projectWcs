@@ -91,8 +91,10 @@ footer{
 /*homepage */
 
 .head-restaurant {   /*Titre de la page */
-    width: 90%;
-    margin: 8% auto;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom : 3%;
+    margin-left: 5%;
     font-family: 'Satisfy', cursive;
     font-size: 4.2em;
     padding: 1em;
@@ -122,14 +124,11 @@ footer{
 }
 
 
-#content-wrapper {  /*regroup title, concept, button,*/
-    z-index: 1 ;
+#content-wrapper { /*regroup title, concept, button,*/
+    z-index: 1;
     min-width: 100%;
     min-height: 100%;
-    margin-bottom : 10% auto;
-
-
-
+    margin-bottom: auto;
 }
 
 .description{      /*paragrah*/
@@ -139,14 +138,44 @@ footer{
 }
 
 .well {                /*grey background*/
-    width: 90%;
+    width: 100%;
+    margin-top:5%;
     margin-bottom: 25%;
     background-color: rgba(34, 34, 34, 0.65);
     border-radius: 15px;
 
 }
+@media (max-width:480px) {
+    .well {
+        width: 100%;
+        margin-bottom:3%;
 
-/*fin homepage*/
+    }
+
+    .head-restaurant {
+        margin: auto;
+        padding-bottom: 0;
+    }
+
+}
+
+@media (min-device-width : 767px)  {
+    .head-restaurant {
+        margin-top: 25%;
+        margin-right: 25%;
+    }
+    .well {
+        width: 100%;
+        margin-top:15%;
+        margin-bottom:25%;
+    }
+
+    }
+
+
+
+
+    /*fin homepage*/
 
 /*Devenir Franchisé */
 
@@ -161,6 +190,7 @@ footer{
     border-width: 1px;
     padding: 10px;
     margin-bottom: 1%;
+    z-index: 1;
 
 }
 
@@ -172,7 +202,7 @@ footer{
 }
 
 .devenir{           /*container*/
-    margin-top: 2%;
+    margin-top: 3%;
 
 }
 
@@ -193,11 +223,11 @@ label{
 #nomrestaurant::placeholder, #firstname::placeholder, #lastname::placeholder, /*placeholder = char du formulaire*/
 #téléphone::placeholder, #email::placeholder, #commentaires::placeholder {
     color:black;
-    font-size : 1.1em;
+    font-size : 1.2em;
 }
 
 
-#nomrestaurant, #firstname, #lastname, #téléphone, #email, #commentaires  { /*background input*/
+#nomrestaurant, #firstname, #lastname, #téléphone, #email, #commentaires { /*background input*/
     background-color: #fff293;
     color: black;
 
@@ -205,8 +235,26 @@ label{
 
 .envoi{       /*button*/
     margin-top:2%;
+
+@media (max-width:480px) {
+    .titreDevenir {
+
+
+    }
+    .formulaire{
+
+    }
 }
+
+
+
+    }
 /*Fin Devenir Franchise*/
+
+/*contact*/
+.masthead img{
+    width:100%;
+}
 
 /* Restaurants page*/
 .restaurant-page {
