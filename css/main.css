@@ -46,10 +46,6 @@ body {
     font-size: 1.4em;
     color: orangered;
 }
-.vertical-center {
-    vertical-align: middle;
-}
-
 /* Navigation bar in the header */
 .navbar-right {
     font-size: 1.5em;
@@ -157,7 +153,7 @@ body {
 
 .head-restaurant {   /*Titre de la page */
     width: 100%;
-    margin-top: 10%;
+    margin-top: 4%;
     margin-bottom : 3%;
     margin-left: 5%;
     font-family: 'Satisfy', cursive;
@@ -279,10 +275,13 @@ body {
     font-family: 'Satisfy', cursive;
     font-size: 3.2em;
     color : orangered;
+    margin-bottom: 1%;
+    padding:1%;
+
 }
 
 .devenir{           /*container*/
-    margin-top: 3%;
+    margin-top: 1%;
 
 }
 
@@ -291,11 +290,15 @@ body {
     color: #fff293;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
+    margin-top:0;
+    padding-top:0;
 }
 
 label{
     font-family: 'Oswald', sans-serif; /* title form*/
     color: #fff293;
+    margin-top:0;
+
 
 
 }
@@ -310,20 +313,21 @@ label{
 #nomrestaurant, #firstname, #lastname, #téléphone, #email, #commentaires { /*background input*/
     background-color: #fff293;
     color: black;
+    margin-top:2px;
+    margin-bottom:2px;
 
 }
 
 .envoi{       /*button*/
-    margin-top:2%;
+    margin-top:1%;
+    margin-bottom:0.5%;
     text-align:center;
+
+
 }
 /*Fin Devenir Franchise*/
 
 /*contact*/
-.masthead img{
-    width:100%;
-}
-
 /* Restaurants page*/
 .restaurant-page {
     width: 100%;
