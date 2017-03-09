@@ -3,6 +3,7 @@
     $file = $page . '.php';
     ?>
 
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -44,7 +45,7 @@
 
     <footer>
 
-                <?php include "inc/footer.php"; ?>
+        <?php include "inc/footer.php"; ?>
 
 
     </footer>

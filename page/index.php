@@ -1,42 +1,47 @@
+
+
 <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
+    <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
         <div id="background-carousel">
-
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="item active" style="background-image :url(http://lorempixel.com/1200/800/food/2/)"></div>
-                            <div class="item" style="background-image:url(http://lorempixel.com/1200/800/food/3/)"></div>
-                            <div class="item" style="background-image:url(http://lorempixel.com/1200/800/food/4/)"></div>
+            <img src="img/homepage.jpg" alt="restaurant lyon" >
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="content-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="text-center col-xs-12 col-sm-12  col-md-12
+                            col-lg-9 col-lg-offset-1">
+                                <h1 class="head-restaurant">Notre concept</h1>
+                            </div>
                         </div>
-                    </div>
-
+                        <div class="row">
+                            <div class="text-center col-xs-12 col-sm-12  col-md-10 col-md-offset-1
+                                col-lg-8 col-lg-offset-2">
+                                <div class="well"><p class="description">Notre concept
+                                        consiste à vous fournir le meilleur de la gastronomie dans un cadre
+                                        idilique.
+                                        Vous souhaitez surprendre vos proches ou vos partenaires professionnel
+                                        pour leur montrer le meilleur de vous même. Les restaurants
+                                        Atypique pour permettre
+                                        de réaliser vos rêves les plus vous. Nous selectionnons
+                                        les plus fantastiques restaurant pour vous satisfaire....</p>
+                                    <div class="row">
+                                        <div class="col-xs-12  col-sm-12
+                                        col-md-12  col-lg-8 col-lg-offset-2">
+                                        <p class="fond">
+                                        <a href="/?page=restaurant" class="btn btn-primary btn-lg restaurant"
+                                           role="button">Nos restaurants</a>
+                                        </p>
+                                        </div>
+                                    </div>
+                                </div><!-- End Container -->
+                            </div>
+                        </div>
+                    </div><!-- PAGE CONTENT -->
+                </div>
+             </div>
         </div>
     </div>
-    <div id="content-wrapper">
-        <!-- PAGE CONTENT -->
-        <div class="container">
-            <div class="page-header"><h1 class="title">Restaurant Atypique Concept</h1></div>
-            <div class="well"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                    duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-                    sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                    duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-                    amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                    ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                    dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                    est Lorem ipsum dolor sit amet.<ba></p>
-            </div>
-
-            <div class="btn-group">
-                <button type="button" class="btn btn-default">Vous êtes un particulier</button>
-
-                <button type="button" class="btn btn-default">Vous êtes un professionnel</button>
-            </div>
-
-            <!-- End Well -->
-        </div><!-- End Container -->
-        <!-- PAGE CONTENT -->
-    </div>
 </div>
+

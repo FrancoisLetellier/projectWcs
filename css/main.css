@@ -15,10 +15,10 @@
 */
 
 html {
-    height: 100vh;
+
 }
 body {
-    min-height: 100vh;
+
     background-color: #ddd;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -30,7 +30,7 @@ body {
 .page-heading {
     font-family: 'Satisfy', cursive;
     font-size: 2.6em;
-    padding; 1em;
+    padding: 1em;
 }
 .image-heading {
     font-family: 'Satisfy', cursive;
@@ -43,6 +43,7 @@ body {
 .footer{
     background-color: rgba(34, 34, 34, 1);
     color: azure;
+
 }
 
 .social-links {
@@ -108,54 +109,182 @@ body {
 }
 
 main {
-    margin-top: 3.5em;
+
+
 }
 
 .background{
 
 }
 
-#background-carousel{
+/*homepage */
+
+.head-restaurant {   /*Titre de la page */
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom : 3%;
+    margin-left: 5%;
+    font-family: 'Satisfy', cursive;
+    font-size: 4.2em;
+    padding: 1em;
+    color : orangered;
+    text-align : center;
+}
+
+#background-carousel{  /*fond écran de la page */
     position:fixed;
     width:100%;
-    height:85%;
+    height:100%;
     z-index:-1;
 
 }
-.carousel,
-.carousel-inner {
-    width:100%;
-    height:100%;
-    overflow:hidden;
-    z-index:0;
 
-}
-.item {
-    width:100%;
-    height:100%;
-    background-position:center center;
-    background-size:cover;
-    z-index:0;
+.restaurant{ /*button Nos restaurant*/
+    font-family: 'Satisfy', cursive;
+    font-size: 2.3em;
+    margin-top: auto 5%;
+    color: #fff293;
 
 }
 
-#content-wrapper {
-    position: absolute;
-    z-index: 1 ;
+.fond{
+  margin: auto 5%; /*fond button*/
+
+}
+
+
+#content-wrapper { /*regroup title, concept, button,*/
+    z-index: 1;
     min-width: 100%;
     min-height: 100%;
+    margin-bottom: auto;
 }
 
-.well {
-    opacity:0.85;
+.description{      /*paragrah*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    color : #fff293;
 }
 
-
-.title{ color:black; font-size:40px; }
-
-img {
+.well {                /*grey background*/
     width: 100%;
+    margin-top:5%;
+    margin-bottom: 25%;
+    background-color: rgba(34, 34, 34, 0.65);
+    border-radius: 15px;
+
 }
+@media (max-width:480px) {
+    .well {
+        width: 100%;
+        margin-bottom:3%;
+
+    }
+
+    .head-restaurant {
+        margin: auto;
+        padding-bottom: 0;
+    }
+
+}
+
+@media (min-device-width : 767px)  {
+    .head-restaurant {
+        margin-top: 25%;
+        margin-right: 25%;
+    }
+    .well {
+        width: 100%;
+        margin-top:15%;
+        margin-bottom:25%;
+    }
+
+    }
+
+
+
+
+    /*fin homepage*/
+
+/*Devenir Franchisé */
+
+
+
+
+.formulaire{
+    background-color: rgba(34, 34, 34, 0.65) ;  /*background form*/
+    border-radius: 15px;
+    border-color: white;
+    border-style : solid;
+    border-width: 1px;
+    padding: 10px;
+    margin-bottom: 1%;
+    z-index: 1;
+
+}
+
+.titreDevenir{      /*Comment devenir franchisé titre*/
+
+    font-family: 'Satisfy', cursive;
+    font-size: 3.2em;
+    color : orangered;
+}
+
+.devenir{           /*container*/
+    margin-top: 3%;
+
+}
+
+.comment{                       /*commentaire devenir franchisé*/
+    z-index:1;
+    color: #fff293;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+
+label{
+    font-family: 'Oswald', sans-serif; /* title form*/
+    color: #fff293;
+
+
+}
+
+#nomrestaurant::placeholder, #firstname::placeholder, #lastname::placeholder, /*placeholder = char du formulaire*/
+#téléphone::placeholder, #email::placeholder, #commentaires::placeholder {
+    color:black;
+    font-size : 1.2em;
+}
+
+
+#nomrestaurant, #firstname, #lastname, #téléphone, #email, #commentaires { /*background input*/
+    background-color: #fff293;
+    color: black;
+
+}
+
+.envoi{       /*button*/
+    margin-top:2%;
+
+@media (max-width:480px) {
+    .titreDevenir {
+
+
+    }
+    .formulaire{
+
+    }
+}
+
+
+
+    }
+/*Fin Devenir Franchise*/
+
+/*contact*/
+.masthead img{
+    width:100%;
+}
+
 /* Restaurants page*/
 .restaurant-page {
     width: 100%;
