@@ -22,7 +22,7 @@
                     </ul>
                 </li>
                 <li <?php if($page == "devenir"){ echo 'class="active"'; } ?>><a href="/?page=devenir">Devenir Franchisé</a></li>
-                <li <?php if($page == "contact"){ echo 'class="active"'; } ?>><a href="/?page=contact">Contact</a></li>
+                <li><a href="#contact-footer">Contact</a></li>
             </ul>
         </div>
     </div>
