@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12  col-lg-12">
         <div id="background-carousel">
-            <img src="img/homepage.jpg" alt="restaurant lyon" >
+            <img src="img/homepage.jpg" alt="restaurant lyon" class="back">
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
