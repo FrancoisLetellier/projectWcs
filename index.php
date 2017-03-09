@@ -3,7 +3,6 @@ $page = (isset($_GET['page']) ? $_GET['page'] : "index");
 $file = $page . '.php';
 ?>
 
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,6 +14,7 @@ $file = $page . '.php';
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="/img/mafavicon.png"/>
     <link rel="stylesheet" href="css/main.css">
     <title>
         <?php
@@ -28,9 +28,6 @@ $file = $page . '.php';
             case 'devenir':
                 echo 'Devenir Franchisé';
                 break;
-            case 'contact':
-                echo 'Contactez-nous';
-                break;
         }
         ?>
     </title>
@@ -42,14 +39,9 @@ $file = $page . '.php';
 <main>
     <?php include "page/$file"; ?>
 </main>
-
 <footer>
-
     <?php include "inc/footer.php"; ?>
-
-
 </footer>
-
 
 <script
         src="http://code.jquery.com/jquery-3.1.1.js"
