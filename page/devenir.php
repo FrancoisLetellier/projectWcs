@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
 
                     <div>
-                        <textarea type="text" class="form-control" name="commentaires" id="commentaires" cols="40" rows="4"
+                        <textarea type="text" class="form-control" name="commentaires" id="commentaires" cols="40" rows="3"
                                   placeholder="Posez vos questions, expliquez le coté atypique de votre restaurant"></textarea>
                     </div>
 
