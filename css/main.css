@@ -14,12 +14,8 @@
     font-family: 'Raleway', sans-serif;
 */
 
-html {
-
-}
 body {
-
-    background-color: #ddd;
+    background-color: rgba(255, 249, 143, 0.5);
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -38,14 +34,14 @@ body {
     padding; 0.3em;
     margin-bottom: 1em;
 }
-
+img {
+    width: 100%;
+}
 /* Footer */
 .footer{
     background-color: rgba(34, 34, 34, 1);
     color: azure;
-
 }
-
 .social-links {
     list-style: none;
     padding:0;
@@ -74,7 +70,6 @@ body {
     font-family: 'Satisfy', cursive;
     font-size: 2.5em;
 }
-
 .navbar-default .navbar-nav > li > a {
     color: whitesmoke;
 }
@@ -84,7 +79,7 @@ body {
     font-size: 1.3em;
     color: whitesmoke;
 }
-
+/* Dropdown menu*/
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover{
@@ -108,6 +103,65 @@ body {
     color: whitesmoke !important;
 }
 
+/* Restaurants page*/
+.restaurant-page {
+    width: 100%;
+    margin: 5% auto;
+}
+.divider {
+    width: 12%;
+    margin: 0 auto;
+}
+.divider-small-screen {
+    display: none;
+}
+.restaurant-navigation {
+    margin: 0 auto;
+}
+.restaurant-navigation a {
+    text-decoration: none;
+    color: rgba(34, 34, 34, 1);
+    font-size: 1.5em !important;
+}
+.restaurant-navigation a h3{
+    font-size: 1.2em !important;
+}
+.restaurant-navigation  a :hover,
+.restaurant-navigation a:focus {
+    color: orangered;
+    text-decoration: none;
+    outline: none;
+}
+/* Modal settings*/
+.modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    opacity: 1 !important;
+    text-align: center;
+    border: none;
+}
+.modal-header {
+    border: none;
+}
+.modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+    background-color: whitesmoke;
+}
+.modal-header span {
+    font-size: 2em;
+}
+.modal-body > .section-heading {
+    padding-bottom: 0.5em;
+}
+.modal-body > .divider {
+    padding:0;
+}
+
+
 /*homepage */
 
 .head-restaurant {   /*Titre de la page */
@@ -121,49 +175,38 @@ body {
     color : orangered;
     text-align : center;
 }
-
 #background-carousel{  /*fond écran de la page */
     position:fixed;
     width:100%;
     height:100%;
     z-index:-1;
-
 }
-
 .restaurant{ /*button Nos restaurant*/
     font-family: 'Satisfy', cursive;
     font-size: 2.3em;
     margin-top: auto 5% ;
     color: #fff293;
-
 }
-
 .fond{
   margin: auto 5%; /*fond button*/
-
 }
-
-
 #content-wrapper { /*regroup title, concept, button,*/
     z-index: 1;
     min-width: 100%;
     min-height: 100%;
 
 }
-
 .description{      /*paragrah*/
     font-family: 'Oswald', sans-serif;
     font-size: 1.6em;
     color : #fff293;
 }
-
 .well {                /*grey background*/
     width: 100%;
     margin-top:5%;
     margin-bottom: 26%;
     background-color: rgba(34, 34, 34, 0.65);
     border-radius: 15px;
-
 }
 
 @media (max-width:480px) {
@@ -228,10 +271,6 @@ body {
     /*fin homepage*/
 
 /*Devenir Franchisé */
-
-
-
-
 .formulaire{
     background-color: rgba(34, 34, 34, 0.65) ;  /*background form*/
     border-radius: 15px;
@@ -288,6 +327,11 @@ label{
     text-align:center;
 }
 /*Fin Devenir Franchise*/
+
+/*contact*/
+.masthead img{
+    width:100%;
+}
 
 /* Restaurants page*/
 .restaurant-page {

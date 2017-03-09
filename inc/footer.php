@@ -1,8 +1,11 @@
 
-<div class="container-fluid footer">
+<div class="container-fluid footer" id="contact-footer">
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  text-center">
             <h4>Contact de la société</h4>
+            <h5>17, rue Ammelie Poullin, Lyon</h5>
+            <h5>restaurant.atypique@gmail.com</h5>
+            <h5>+33-12-65-42-21</h5>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
             <h4>Contactez nous </h4>
