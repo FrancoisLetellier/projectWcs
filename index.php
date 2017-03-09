@@ -1,7 +1,7 @@
 <?php
-    $page = (isset($_GET['page']) ? $_GET['page'] : "index");
-    $file = $page . '.php';
-    ?>
+$page = (isset($_GET['page']) ? $_GET['page'] : "index");
+$file = $page . '.php';
+?>
 
 
 <!doctype html>
@@ -18,45 +18,45 @@
     <link rel="stylesheet" href="css/main.css">
     <title>
         <?php
-            switch ($page){
-                case 'index' :
-                    echo 'Accueil';
-                    break;
-                case 'restaurant' :
-                    echo 'Nos Restaurants';
-                    break;
-                case 'devenir':
-                    echo 'Devenir Franchisé';
-                    break;
-                case 'contact':
-                    echo 'Contactez-nous';
-                    break;
-            }
+        switch ($page) {
+            case 'index' :
+                echo 'Accueil';
+                break;
+            case 'restaurant' :
+                echo 'Nos Restaurants';
+                break;
+            case 'devenir':
+                echo 'Devenir Franchisé';
+                break;
+            case 'contact':
+                echo 'Contactez-nous';
+                break;
+        }
         ?>
     </title>
 </head>
 <body>
-    <header>
-        <?php include "inc/header.php"; ?>
-    </header>
-    <main>
-        <?php include "page/$file"; ?>
-    </main>
+<header>
+    <?php include "inc/header.php"; ?>
+</header>
+<main>
+    <?php include "page/$file"; ?>
+</main>
 
-    <footer>
+<footer>
 
-        <?php include "inc/footer.php"; ?>
-
-
-    </footer>
+    <?php include "inc/footer.php"; ?>
 
 
-    <script
-    src="http://code.jquery.com/jquery-3.1.1.js"
-    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-    crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
+</footer>
+
+
+<script
+        src="http://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
 </html>

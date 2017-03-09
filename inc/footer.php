@@ -12,8 +12,8 @@
             <ul class="social-links">
                 <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="https://plus.google.com/?hl=fr"></i></a></li>
                 <li><a href="#"><i class="fa fa-envelope"></i></a></li>
             </ul>
         </div>
@@ -24,5 +24,3 @@
     	</div>
     </div>
 <div>
-
-
