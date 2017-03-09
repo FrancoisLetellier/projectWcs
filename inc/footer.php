@@ -1,19 +1,25 @@
 
-<div class="container-fluid">
+<div class="container-fluid footer">
     <div class="row">
-        <div class="footer col-xs-6 col-sm-6col-md-6 col-lg-6">
-            <h3>Contact de la société</h3>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  text-center">
+            <h4>Contact de la société</h4>
         </div>
-        <div class="footer col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <h3>Contact réseaux sociaux</h3>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+            <h4>Contactez nous </h4>
+            <ul class="social-links">
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            </ul>
         </div>
     </div>
     <div class="row">
-    	<div class=" footer-bottom col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
     		<p>Conditions générales de vente</p>
     	</div>
     </div>
-
 <div>
 
 
