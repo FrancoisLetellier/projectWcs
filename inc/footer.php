@@ -7,8 +7,8 @@
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
             <h4>Contactez nous </h4>
             <ul class="social-links">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                 <li><a href="#"><i class="fa fa-envelope"></i></a></li>

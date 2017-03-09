@@ -32,6 +32,12 @@ body {
     font-size: 2.6em;
     padding; 1em;
 }
+.image-heading {
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+    padding; 0.3em;
+    margin-bottom: 1em;
+}
 
 /* Footer */
 .footer{
@@ -39,28 +45,33 @@ body {
     color: azure;
 }
 
-
+.social-links {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
 .social-links li {
     text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    padding-left: 0.9em;
-    padding-right: 0.9em;
+    display: inline;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
 }
 
-.social-links i {
+.social-links a {
+    display: inline-block;
     font-size: 1.4em;
     color: orangered;
 }
 /* Navigation bar in the header */
 .navbar-right {
-    font-size: 1.2em;
+    font-size: 1.5em;
+
  /*   text-transform: uppercase; */
  }
 .navbar-default .navbar-brand {
     color: orangered;
     font-family: 'Satisfy', cursive;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -69,14 +80,34 @@ body {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     display: block;
-    font-size: 1.25em;
+    font-size: 1.3em;
     color: whitesmoke;
 }
 
-
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover{
+    background-color: rgba(34, 34, 34, 1) !important;
+    color:  whitesmoke !important;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover{
+    font-size: 1.5em;
+}
+.dropdown-menu {
+    background-color: rgba(34, 34, 34, 1) !important;
+    color: whitesmoke !important;
+}
+.dropdown-menu > li > a,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    background-color: rgba(34, 34, 34, 1) !important;
+    color: whitesmoke !important;
+}
 
 main {
-    height: 680px;
     margin-top: 3.5em;
 }
 
@@ -127,31 +158,35 @@ img {
 }
 /* Restaurants page*/
 .restaurant-page {
-    width: 90%;
+    width: 100%;
     margin: 5% auto;
 
 }
 .divider {
-    width: 15%;
+    width: 12%;
     margin: 0 auto;
+}
+.divider-small-screen {
+    display: none;
 }
 
 .restaurant-navigation {
-    width: 80%;
-    margin: 5% auto;
+    margin: 0 auto;
 }
 .restaurant-navigation a {
     text-decoration: none;
     color: rgba(34, 34, 34, 1);
-
+    font-size: 1.5em !important;
 }
-.restaurant-navigation  a :hover, .restaurant-navigation a:focus {
+.restaurant-navigation a h3{
+    font-size: 1.2em !important;
+}
+.restaurant-navigation  a :hover,
+.restaurant-navigation a:focus {
     color: orangered;
     text-decoration: none;
     outline: none;
 }
-
-
 
 /* Modal settings*/
 .modal-dialog {
@@ -175,9 +210,37 @@ img {
     background-color: whitesmoke;
 }
 .modal-header span {
-    font-size: 3em;
+    font-size: 2em;
+}
+.modal-body > .section-heading {
+    padding-bottom: 0.5em;
+}
+.modal-body > .divider {
+    padding:0;
 }
 
+@media screen and (max-width: 992px) {
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+    }
+    .navbar-right {
+        font-size: 1.4em;
+    }
+    .restaurant-navigation a h3 {
+        font-size: 1.1em !important;
+    }
+    .divider-small-screen {
+        display: block;
+    }
+    .modal-header span {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar-right {
+        font-size: 1em;
+    }
+}
 
 
 

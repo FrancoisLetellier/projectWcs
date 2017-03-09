@@ -13,7 +13,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li <?php if($page == "index"){ echo 'class="active"'; } ?>><a href="/?page=index">Accueil</a></li>
-                <li <?php if($page == "restaurant"){ echo 'class="active"'; } ?>><a href="/?page=restaurant">Restaurants</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Restaurant<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li <?php if($page == "restaurant"){ echo 'class="active"'; } ?>><a href="/?page=restaurant&&#restoLyon">Lyon</a></li>
+                        <li <?php if($page == "restaurant"){ echo 'class="active"'; } ?>><a href="/?page=restaurant&&#restoParis">Paris</a></li>
+                        <li <?php if($page == "restaurant"){ echo 'class="active"'; } ?>><a href="/?page=restaurant&&#restoMarseille">Marseille</a></li>
+                    </ul>
+                </li>
                 <li <?php if($page == "devenir"){ echo 'class="active"'; } ?>><a href="/?page=devenir">Devenir Franchisé</a></li>
                 <li <?php if($page == "contact"){ echo 'class="active"'; } ?>><a href="/?page=contact">Contact</a></li>
             </ul>
