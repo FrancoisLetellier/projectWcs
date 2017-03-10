@@ -1,29 +1,22 @@
-
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     print_r('<pre>');
     var_dump($_POST);
     print_r('</pre>');
-}else{
+} else {
     ?>
-
-
-
-
-
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div id="background-carousel">
-                <img src="img/devenir2.jpg" alt="restaurant lyon" >
+                <img src="img/devenir2.jpg" alt="restaurant lyon">
             </div>
-
         </div>
 
         <div class="container devenir">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-               <h1 class="titreDevenir">Comment devenir franchisé ? </h1>
+                <h1 class="titreDevenir">Comment devenir franchisé ? </h1>
                 <p class="comment">Devenir franchisé vous permet de mettre en avant votre restaurant.
                     Nous vous accompagnons dans votre projet de A à Z. Notre souhait est de partager
                     notre savoir faire et agrandir notre réseau de restaurateur. Le but est de répondre au maximum aux
@@ -34,7 +27,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
 
         <div class="row">
-
             <div class="col-xs-8 col-xs-offset-2  col-sm-8 col-sm-offset-2 col-md-8 col-lg-4 col-lg-offset-4 formulaire">
                 <form action="" method="post" role="form">
 
@@ -52,12 +44,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                     <div class="form-group">
                         <label for="">Nom</label>
-                        <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Entrez votre nom">
+                        <input type="text" class="form-control" name="lastname" id="lastname"
+                               placeholder="Entrez votre nom">
                     </div>
 
                     <div class="form-group">
                         <label for="">Email</label>
-                        <input type="text" class="form-control" name="email" id="email" placeholder="Entrez votre email">
+                        <input type="text" class="form-control" name="email" id="email"
+                               placeholder="Entrez votre email">
                     </div>
 
                     <div class="form-group">
@@ -67,7 +61,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
 
                     <div>
-                        <textarea type="text" class="form-control" name="commentaires" id="commentaires" cols="40" rows="3"
+                        <textarea type="text" class="form-control" name="commentaires" id="commentaires" cols="40"
+                                  rows="3"
                                   placeholder="Posez vos questions, expliquez le coté atypique de votre restaurant"></textarea>
                     </div>
 
@@ -75,8 +70,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <div class="col-xs-4 col-xs-offset-4 col-sm-8 col-sm-offset-2
                                             col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ">
 
-                                <a href="" class="btn btn-primary btn-lg send"
-                                   role="button">Envoi</a>
+                            <a href="" class="btn btn-primary btn-lg send"
+                               role="button">Envoi</a>
                         </div>
                     </div>
                 </form>

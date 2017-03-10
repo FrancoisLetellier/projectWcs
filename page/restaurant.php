@@ -13,7 +13,7 @@
             </div>
             <div class="row">
             	<div class="col-xs-10 col-sm-8 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-2 col-md-offset-1 col-lg-offset-1 text-center">
-                    <h2 class="image-heading">Restaurant Atypique à Lyon</h2>
+                    <h2 class="image-heading">Venez nous voir</h2>
                     <img src="/img/restoLyon.jpg" alt="Restaurant à Lyon" class="img-responsive img-centered" />
                     <h4>26, rue de Bellair </br>
                         69003 Lyon</h4>
@@ -79,7 +79,7 @@
                     <img src="/img/divider.svg" alt="horizontal separator" />
                 </div>
                 <div class="col-xs-10 col-sm-8 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 text-center">
-                    <h2 class="image-heading">Restaurant Atypique Classique</h2>
+                    <h2 class="image-heading">Atypique Classe</h2>
                     <img src="/img/restoClass.jpg" alt="Restaurant à Paris" class="img-responsive img-centered" />
                     <h4>26, rue de Bellair </br>
                         75000 Paris</h4>
