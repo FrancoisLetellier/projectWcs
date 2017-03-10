@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  text-center">
             <h4>Contact de la société</h4>
-            <h5>Ammelie Poullin</h5>
+            <h5>Amelie Poullin</h5>
             <h5>17, rue de Luc Besson, Lyon</h5>
             <h5>restaurant.atypique@gmail.com</h5>
             <h5>+33-12-65-42-21</h5>
@@ -14,7 +14,7 @@
                 <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="https://plus.google.com/?hl=fr"></i></a></li>
+                <li><a href="https://plus.google.com/?hl=fr"><i class=" fa fa-google-plus"></i></a></li>
                 <li><a href="#"><i class="fa fa-envelope"></i></a></li>
             </ul>
         </div>
