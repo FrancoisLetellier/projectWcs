@@ -15,14 +15,14 @@
             	<div class="col-xs-10 col-sm-8 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-2 col-md-offset-1 col-lg-offset-1 text-center">
                     <h2 class="image-heading">Venez nous voir</h2>
                     <img src="/img/restoLyon.jpg" alt="Restaurant à Lyon" class="img-responsive img-centered" />
-                    <h4>26, rue de Bellair </br>
+                    <h4>26, rue de Bellair <br/>
                         69003 Lyon</h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
                             <h4>Heures d'ouverture</h4>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
-                            <h4>du Lundi au Dimanche </br>12:00-16:00 </br>18:00-23:00</h4>
+                            <h4>du Lundi au Dimanche <br/>12:00-16:00 <br/>18:00-23:00</h4>
                         </div>
                     </div>
                     <a href="#restaurantModal1" data-toggle="modal"><h3>Voir le menu</h3></a>
@@ -33,14 +33,14 @@
                 <div class="col-xs-10 col-sm-8 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 text-center">
                     <h2 class="image-heading">Sous les parapluies</h2>
                     <img src="/img/restoBelgrade.jpg" alt="Restaurant à Lyon" class="img-responsive img-centered" />
-                    <h4>26, rue de Bellair </br>
+                    <h4>26, rue de Bellair <br/>
                     69003 Lyon</h4>
                     <div class="row">
                     	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
                     		<h4>Heures d'ouverture</h4>
                     	</div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
-                            <h4>du Lundi au Dimanche </br>12:00-16:00 </br>18:00-23:00</h4>
+                            <h4>du Lundi au Dimanche <br/>12:00-16:00 <br/>18:00-23:00</h4>
                         </div>
                     </div>
                     <a href="#restaurantModal1" data-toggle="modal"><h3>Voir le menu</h3></a>
@@ -63,14 +63,14 @@
                 <div class="col-xs-10 col-sm-8 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-2 col-md-offset-1 col-lg-offset-1 text-center">
                     <h2 class="image-heading">Coin rustique</h2>
                     <img src="/img/restoNoviSad.jpg" alt="Restaurant à Paris" class="img-responsive img-centered" />
-                    <h4>26, rue de Bellair </br>
+                    <h4>26, rue de Bellair <br/>
                         75000 Paris</h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
                             <h4>Heures d'ouverture</h4>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
-                            <h4>du Lundi au Dimanche </br>12:00-16:00 </br>18:00-23:00</h4>
+                            <h4>du Lundi au Dimanche <br/>12:00-16:00 <br/>18:00-23:00</h4>
                         </div>
                     </div>
                     <a href="#restaurantModal1" data-toggle="modal"><h3>Voir le menu</h3></a>
@@ -81,14 +81,14 @@
                 <div class="col-xs-10 col-sm-8 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 text-center">
                     <h2 class="image-heading">Atypique Classe</h2>
                     <img src="/img/restoClass.jpg" alt="Restaurant à Paris" class="img-responsive img-centered" />
-                    <h4>26, rue de Bellair </br>
+                    <h4>26, rue de Bellair <br/>
                         75000 Paris</h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
                             <h4>Heures d'ouverture</h4>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
-                            <h4>du Lundi au Dimanche </br>12:00-16:00 </br>18:00-23:00</h4>
+                            <h4>du Lundi au Dimanche <br/>12:00-16:00 <br/>18:00-23:00</h4>
                         </div>
                     </div>
                     <a href="#restaurantModal1" data-toggle="modal"><h3>Voir le menu</h3></a>
@@ -111,14 +111,14 @@
                 <div class="col-xs-10 col-sm-8 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-2 col-md-offset-1 col-lg-offset-1 text-center">
                     <h2 class="image-heading">Plongeont dans la mer</h2>
                     <img src="/img/restoAqua.jpg" alt="Restaurant à Marseille" class="img-responsive img-centered" />
-                    <h4>26, rue de Bellair </br>
+                    <h4>26, rue de Bellair <br/>
                         13000 Marseille</h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
                             <h4>Heures d'ouverture</h4>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
-                            <h4>du Lundi au Dimanche </br>12:00-16:00 </br>18:00-23:00</h4>
+                            <h4>du Lundi au Dimanche <br/>12:00-16:00 <br/>18:00-23:00</h4>
                         </div>
                     </div>
                     <a href="#restaurantModal1" data-toggle="modal"><h3>Voir le menu</h3></a>
@@ -129,14 +129,14 @@
                 <div class="col-xs-10 col-sm-8 col-md-4 col-lg-4 col-xs-offset-1 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 text-center">
                     <h2 class="image-heading">Entre le ciel et la mer</h2>
                     <img src="/img/restoTop.jpg" alt="Restaurant à Marseille" class="img-responsive img-centered" />
-                    <h4>26, rue de Bellair </br>
+                    <h4>26, rue de Bellair <br/>
                         13000 Marseille</h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
                             <h4>Heures d'ouverture</h4>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center">
-                            <h4>du Lundi au Dimanche </br>12:00-16:00 </br>18:00-23:00</h4>
+                            <h4>du Lundi au Dimanche <br/>12:00-16:00 <br/>18:00-23:00</h4>
                         </div>
                     </div>
                     <a href="#restaurantModal1" data-toggle="modal"><h3>Voir le menu</h3></a>

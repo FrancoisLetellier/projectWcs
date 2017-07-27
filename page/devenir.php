@@ -1,6 +1,5 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
     print_r('<pre>');
     var_dump($_POST);
     print_r('</pre>');
@@ -62,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                     <div>
                         <textarea type="text" class="form-control" name="commentaires" id="commentaires" cols="40"
-                                  rows="3"
+                                  rows="4"
                                   placeholder="Posez vos questions, expliquez le coté atypique de votre restaurant"></textarea>
                     </div>
 
@@ -71,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                             col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ">
 
                             <a href="" class="btn btn-primary btn-lg send"
-                               role="button">Envoi</a>
+                               role="button"><b>Envoi</b></a>
                         </div>
                     </div>
                 </form>
@@ -80,3 +79,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
 
 <?php } ?>
+
